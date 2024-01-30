@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temperature Converter</title>
+        <link rel="stylesheet" href="temp_css.css">
+        <style>
+            body{
+            background-image:url("temp.jpg");}
+        </style>
+    </head>
+    <body>
+       <center>
+        <div class="x">
+        <label>Temperature</label>
+        <input type="number" id="t"><br>
+        <select name="temperature" id="t1">
+            <option value="cel">Celsius</option>
+            <option value="fah">Fahrenheit</option>
+        </select><br>
+        <button onclick="validate()">Convert</button>
+        <h1 id="res"></h1></div> 
+    </center>
+        <script src="temp_js.js"></script>
+    </body>
+</html>
